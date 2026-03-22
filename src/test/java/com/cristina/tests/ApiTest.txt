@@ -1,0 +1,17 @@
+1. Trimite un request GET catre:
+   https://jsonplaceholder.typicode.com/todos/1
+
+2. Verifica ca status code este:
+   200
+
+3. Parseaza body-ul raspunsului (JSON)
+
+4. Verifica ca raspunsul contine campul:
+   "title"
+
+5. Verifica ca "title" nu este null sau gol
+
+REZULTAT ASTEPTAT:
+- Status code = 200
+- Raspunsul contine campul "title"
+- "title" are o valoare valida
