@@ -4,4 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["mvn", "-version"]
+RUN mvn clean install
+
+CMD ["mvn", "test"]
